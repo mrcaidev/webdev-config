@@ -1,0 +1,32 @@
+{
+  "name": "@mrcaidev/lintstaged-config",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Lint-staged configuration.",
+  "keywords": [
+    "config",
+    "lint-staged",
+    "git",
+    "hooks"
+  ],
+  "homepage": "https://github.com/mrcaidev/webdev-config",
+  "bugs": {
+    "url": "https://github.com/mrcaidev/webdev-config/issues",
+    "email": "mrcaidev@gmail.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Yuwang Cai",
+    "email": "mrcaidev@gmail.com",
+    "url": "https://www.mrcai.space"
+  },
+  "files": [
+    "astro.json",
+    "base.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrcaidev/webdev-config.git",
+    "directory": "packages/lintstaged-config"
+  }
+}

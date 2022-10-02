@@ -1,0 +1,43 @@
+{
+  "name": "@mrcaidev/prettier-config-astro",
+  "version": "0.1.0",
+  "description": "Prettier configuration for Astro projects.",
+  "keywords": [
+    "config",
+    "prettier",
+    "frontend",
+    "format",
+    "astro"
+  ],
+  "homepage": "https://github.com/mrcaidev/webdev-config",
+  "bugs": {
+    "url": "https://github.com/mrcaidev/webdev-config/issues",
+    "email": "mrcaidev@gmail.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Yuwang Cai",
+    "email": "mrcaidev@gmail.com",
+    "url": "https://www.mrcai.space"
+  },
+  "main": "index.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrcaidev/webdev-config.git",
+    "directory": "packages/prettier-config-astro"
+  },
+  "dependencies": {
+    "prettier-plugin-astro": "^0.5.5"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "peerDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest"
+  }
+}

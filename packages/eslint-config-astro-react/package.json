@@ -1,0 +1,52 @@
+{
+  "name": "@mrcaidev/eslint-config-astro-react",
+  "version": "0.1.0",
+  "description": "ESLint configuration for Astro + React + TS projects.",
+  "keywords": [
+    "config",
+    "eslint",
+    "react",
+    "astro",
+    "typescript"
+  ],
+  "homepage": "https://github.com/mrcaidev/webdev-config",
+  "bugs": {
+    "url": "https://github.com/mrcaidev/webdev-config/issues",
+    "email": "mrcaidev@gmail.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Yuwang Cai",
+    "email": "mrcaidev@gmail.com",
+    "url": "https://www.mrcai.space"
+  },
+  "main": "index.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrcaidev/webdev-config.git",
+    "directory": "packages/eslint-config-astro-react"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-node": "^0.3.6",
+    "eslint-import-resolver-typescript": "^3.5.1",
+    "eslint-plugin-astro": "^0.19.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.24.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest"
+  }
+}

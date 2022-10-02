@@ -1,0 +1,45 @@
+{
+  "name": "@mrcaidev/tsconfig",
+  "version": "0.1.0",
+  "description": "TypeScript configuration.",
+  "keywords": [
+    "config",
+    "ts",
+    "type",
+    "tsconfig",
+    "typescript"
+  ],
+  "homepage": "https://github.com/mrcaidev/webdev-config",
+  "bugs": {
+    "url": "https://github.com/mrcaidev/webdev-config/issues",
+    "email": "mrcaidev@gmail.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Yuwang Cai",
+    "email": "mrcaidev@gmail.com",
+    "url": "https://www.mrcai.space"
+  },
+  "files": [
+    "base.json",
+    "backend.json",
+    "frontend.json",
+    "library.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrcaidev/webdev-config.git",
+    "directory": "packages/tsconfig"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "peerDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest"
+  }
+}

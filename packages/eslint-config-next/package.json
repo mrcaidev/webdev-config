@@ -1,0 +1,44 @@
+{
+  "name": "@mrcaidev/eslint-config-next",
+  "version": "0.1.0",
+  "description": "ESLint configuration for Next.js + TS projects.",
+  "keywords": [
+    "config",
+    "eslint",
+    "react",
+    "next.js",
+    "typescript"
+  ],
+  "homepage": "https://github.com/mrcaidev/webdev-config",
+  "bugs": {
+    "url": "https://github.com/mrcaidev/webdev-config/issues",
+    "email": "mrcaidev@gmail.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Yuwang Cai",
+    "email": "mrcaidev@gmail.com",
+    "url": "https://www.mrcai.space"
+  },
+  "main": "index.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrcaidev/webdev-config.git",
+    "directory": "packages/eslint-config-next"
+  },
+  "dependencies": {
+    "eslint-config-next": "^12.3.1",
+    "eslint-config-prettier": "^8.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.24.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest"
+  }
+}
