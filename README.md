@@ -19,13 +19,13 @@ I hope you find them useful as well!
 
 |           Name            | Published |
 | :-----------------------: | :-------: |
-| eslint-config-astro-react |           |
-|    eslint-config-next     |           |
-|    eslint-config-node     |           |
-|    eslint-config-react    |           |
+| eslint-config-astro-react |    ✅     |
+|    eslint-config-next     |    ✅     |
+|    eslint-config-node     |    ✅     |
+|    eslint-config-react    |    ✅     |
 |     lintstaged-config     |           |
-|   prettier-config-astro   |           |
-|         tsconfig          |           |
+|   prettier-config-astro   |    ✅     |
+|         tsconfig          |    ✅     |
 
 ## 🧰 Built With
 
