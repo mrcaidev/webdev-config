@@ -1,0 +1,8 @@
+{
+  "extends": "@mrcaidev/tsconfig/frontend.json",
+  "compilerOptions": {
+    "baseUrl": "."
+  },
+  "include": ["src", "next-env.d.ts"],
+  "exclude": ["node_modules"]
+}
