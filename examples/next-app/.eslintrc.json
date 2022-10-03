@@ -1,3 +1,10 @@
 {
-  "extends": "@mrcaidev/next"
+  "extends": "@mrcaidev/next",
+  "settings": {
+    "import/resolver": {
+      "typescript": {
+        "project": "examples/*/tsconfig.json"
+      }
+    }
+  }
 }
