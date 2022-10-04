@@ -1,6 +1,6 @@
 {
   "name": "@mrcaidev/eslint-config-astro-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ESLint configuration for Astro + React + TS projects.",
   "keywords": [
     "config",
