@@ -1,36 +1,7 @@
 {
   "name": "webdev-config",
   "version": "0.0.0",
-  "description": "Web development configuration files.",
   "private": true,
-  "keywords": [
-    "config",
-    "typescript",
-    "react",
-    "next.js",
-    "astro",
-    "eslint",
-    "prettier",
-    "editorconfig",
-    "commitlint",
-    "husky",
-    "lint-staged"
-  ],
-  "homepage": "https://github.com/mrcaidev/webdev-config",
-  "bugs": {
-    "url": "https://github.com/mrcaidev/webdev-config/issues",
-    "email": "mrcaidev@gmail.com"
-  },
-  "license": "MIT",
-  "author": {
-    "name": "Yuwang Cai",
-    "email": "mrcaidev@gmail.com",
-    "url": "https://www.mrcai.space"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mrcaidev/webdev-config.git"
-  },
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
@@ -41,14 +12,10 @@
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
-    "@mrcaidev/prettier-config-astro": "workspace:^0.1.0",
+    "@mrcaidev/prettier-config-astro": "workspace:latest",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "turbo": "^1.5.5"
-  },
-  "workspaces": [
-    "examples/*",
-    "packages/*"
-  ]
+  }
 }
