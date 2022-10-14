@@ -19,6 +19,7 @@ I hope you find them useful as well!
 
 |           Name            | Published |
 | :-----------------------: | :-------: |
+|     commitlint-config     |    ✅     |
 | eslint-config-astro-react |    ✅     |
 |    eslint-config-next     |    ✅     |
 |    eslint-config-node     |    ✅     |

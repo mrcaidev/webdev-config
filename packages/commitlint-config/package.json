@@ -1,0 +1,43 @@
+{
+  "name": "@mrcaidev/commitlint-config",
+  "version": "0.1.0",
+  "description": "Commitlint configuration.",
+  "keywords": [
+    "config",
+    "commitlint",
+    "git",
+    "commit",
+    "hook"
+  ],
+  "homepage": "https://github.com/mrcaidev/webdev-config",
+  "bugs": {
+    "url": "https://github.com/mrcaidev/webdev-config/issues",
+    "email": "mrcaidev@gmail.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Yuwang Cai",
+    "email": "mrcaidev@gmail.com",
+    "url": "https://mrcai.dev"
+  },
+  "main": "index.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrcaidev/webdev-config.git",
+    "directory": "packages/commitlint-config"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "^17.1.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": "^17.1.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest"
+  }
+}
